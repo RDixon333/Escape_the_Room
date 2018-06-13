@@ -14,6 +14,17 @@ You're able to click on objects and a "collision detection system" will spit out
 
 Now for the caveats. The colliders only position themselves correctly on the page if you're running a maximized window on Chrome at a resolution of 1920x1080. A bit of research indicates that HTML tables are not inline objects, so they do not behave correctly even when "tamed" with CSS. Even Flash games from 2005 don't have this level of janky implementation, so this simply will not do.
 
-The table placement issue still occurs even when spliting the background into its separate objects, and distributing them within the table. What to do?
+The main problem is that the table placement issue still occurs even when spliting the background into its separate objects, and distributing them within the table. What to do?
 
 Well, the simple solution to this is to just use a javascript-based game engine to do everything, including displaying the objects. Fortunately, I've found some promising ones that I'll be playing around with this week.
+
+
+Work left to do
+_______________
+
+- Recreate current functionality in javascript-based game engine
+- Game inventory system using arrays
+- Player inventory system using arrays
+- Use item function (based on whether an item exists in player inventory)
+- Countdown Timer (if it reaches 0 the game resets
+
