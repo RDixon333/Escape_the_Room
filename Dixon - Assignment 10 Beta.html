@@ -1,0 +1,96 @@
+<html>
+<head>
+  <style>
+    body
+    {
+      background-image: url("https://i.imgur.com/U6owgQl.png");
+      background-color: #cccccc;
+      background-repeat:no-repeat;
+      background-position: center center;
+    }
+    #drawersColl
+    {
+      position:absolute;
+      top:60%;
+      left:27%;
+    }
+    #cabinetColl
+    {
+      position:absolute;
+      top:20%;
+      left:28%;
+    }
+    #fridgeColl
+    {
+      position:absolute;
+      top:30%;
+      left:36%;
+    }
+    #doorColl
+    {
+      position:absolute;
+      top:30%;
+      left:60%;
+    }
+  </style>
+</head>
+  <body>
+    <div style="text-align:center;">
+      <h1> Escape </h1>
+      <h3> (Note: Object colliders only work properly on Chrome with 1920x1080 resolution) </h3>
+    </div>
+
+    <table id="drawersColl">
+      <tr>
+        <td style="width: 200px; height: 100px" id="drawer1"> drawer1 Coll </td>
+      </tr>
+
+      <tr>
+        <td style="width: 200px; height: 100px" id="drawer2"> drawer2 Coll </td>
+      </tr>
+
+    </table>
+
+    <table id="cabinetColl">
+      <tr>
+        <td style="width: 200px; height: 200px" id="cabinet"> Cabinet Collider </td>
+      </tr>
+
+    </table>
+
+    <table id="fridgeColl">
+      <tr>
+        <td style="width: 200px; height: 100px" id="plant"> Plant Collider </td>
+      </tr>
+
+      <tr>
+        <td style="width: 200px; height: 400px" id="fridge"> Fridge Collider </td>
+      </tr>
+
+
+    </table>
+
+    <table id="doorColl">
+      <tr>
+        <td style="width: 200px; height: 500px" id="door"> Door Collider </td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
+
+<script language = "javascript">
+  let fridge = document.getElementById('fridge');
+  let plant = document.getElementById('plant');
+  let door = document.getElementById('door');
+  let cabinet = document.getElementById('cabinet');
+  let drawer1 = document.getElementById('drawer1');
+  let drawer2 = document.getElementById('drawer2');
+  fridge.addEventListener('click', function(){alert('You clicked on the fridge!')});
+  plant.addEventListener('click', function(){alert('You clicked on the plant!')});
+  door.addEventListener('click', function(){alert('You clicked on the door!')});
+  cabinet.addEventListener('click', function(){alert('You clicked on the cabinet!')});
+  drawer1.addEventListener('click', function(){alert('You clicked on the top drawer!')});
+  drawer2.addEventListener('click', function(){alert('You clicked on the bottom drawer!')});
+</script>
