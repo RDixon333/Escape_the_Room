@@ -16,4 +16,4 @@ Now for the caveats. The colliders only position themselves correctly on the pag
 
 The table placement issue still occurs even when spliting the background into its separate objects, and distributing them within the table. What to do?
 
-Well, the simple solution to this is to just use a javascript-based game engine to do everything, including displaying the objects. Fortunately, I've found some promising ones that I'll be playing around with this week.  
+Well, the simple solution to this is to just use a javascript-based game engine to do everything, including displaying the objects. Fortunately, I've found some promising ones that I'll be playing around with this week.
