@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arial'),
+         url('resources/arial.woff');
+}
+@font-face{
+    font-family: 'Gill Sans MT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gill Sans MT'),
+         url('resources/gill sans mt.woff');
+}
