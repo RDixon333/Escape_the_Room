@@ -8,7 +8,7 @@ Javascript will do most of the heavy lifting, while HTML and a small bit of CSS 
 
 
 [UPDATE 6/13/18]
-
+_______________
 
 An ACTUAL beta!
 
@@ -30,7 +30,7 @@ _______________
 
 
 [UPDATE 6/12/18]
-
+__________
 
 As of yet, a portion of game's most basic functionality is there, albeit with some caveats.
 
