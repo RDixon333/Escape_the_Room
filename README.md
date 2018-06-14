@@ -6,7 +6,9 @@ The idea is that you are stuck in a room and need to escape. This will utilize H
 
 Javascript will do most of the heavy lifting, while HTML and a small bit of CSS will make it somewhat appealing to look at.
 
+
 [UPDATE 6/13/18]
+
 
 An ACTUAL beta!
 
@@ -26,7 +28,9 @@ _______________
 - Player inventory system
 - Countdown timer
 
+
 [UPDATE 6/12/18]
+
 
 As of yet, a portion of game's most basic functionality is there, albeit with some caveats.
 
