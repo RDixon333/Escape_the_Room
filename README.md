@@ -6,6 +6,13 @@ The idea is that you are stuck in a room and need to escape. This will utilize H
 
 Javascript will do most of the heavy lifting, while HTML and a small bit of CSS will make it somewhat appealing to look at.
 
+[UPDATE 6/25/18]
+
+Well, it's that time again. I've implemented a script that is supposed to load an image from flickr, but it doesn't seem to work at all even though it's written correctly. Not sure why. But I'm out of time, so I'm going to have to call it here.
+
+In hindsight, I wish I was able to dedicate more time to this project (and indeed the course as well), as I definitely felt a bit overwhelmed with how much the class presented relative to my other courses. That said, I've taken quite a bit away, philosophically speaking, about the programmer's mindset. They're definitely people I respect, because they must deal with failure endlessly.
+
+I find that to be an invaluable lesson.
 
 [UPDATE 6/13/18]
 _______________
