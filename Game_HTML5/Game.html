@@ -18,10 +18,10 @@
 			padding: 0;
 		}
 	</style>
-	
-	
+
+
 	<script type="text/javascript" src="slplayer.js"></script>
-	
+
 </head>
 <body>
 	<div id="hTORGCqM" style="position: relative; height: 100%;"></div>
@@ -32,6 +32,21 @@
 	preloaderDocData.f = f;
 	preloaderDocData.li = {"color":"#cccccc","density":13,"diameter":50,"range":0.2,"shape":"oval","speed":1};
 	Saola.openDoc('Game.js', 'hTORGCqM', {paused:false, preloaderDoc: preloaderDocData, center: 'vertical', autofit: true});})(AtomiSaola);
+	</script>
+
+	<div id="main">
+		Something.
+	</div>
+	<script language = 'javascript'>
+	 	function flickrResults(catPhoto)
+			{
+				var myDiv = document.getElementById("main");
+				myDiv.innerHTML += "<img src= '"  catPhoto.items[4].media.m  "' />";
+			}
+	</script>
+
+	<script
+	src='http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=flickrResults&tags=cats&format=json'>
 	</script>
 </body>
 </html>
